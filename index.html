@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Devi Chandran's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Devi Chandran</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Yukesh Raghavan</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#education" onclick="toggleMenu()">Education</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </jdiv>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/Profile 1.heic" alt="Devi Chandran profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Devi Chandran</h1>
+        <p class="section__text__p2">Data Scientist and Data Aanlyst</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Devi Chandran_CV_UK.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon" onclick="window.open('https://www.linkedin.com/in/devichandran/', '_blank')">
+
+
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            <img src="./assets/github.png" alt="My Github profile" class="icon" onclick="window.open('https://github.com/devi098', '_blank')">
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/Photo 2.jpeg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>Internship Experience <br />Data Scientist</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Bachelors of Science Honours in Mathematics</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Hey there! I am a Data Science Master's graduate from the University of Birmingham with a strong foundation in
+              mathematics from the University of Delhi. I am committed to leveraging advanced analytical techniques to
+              extract meaningful insights from complex datasets and Adept at data cleaning, analysis, and visualization, with
+              a focus on optimizing model performance. I have demonstrated expertise in diverse projects, including research,
+              data manipulation, and machine learning. Committed to continuous learning and equipped with strong
+              leadership and extracurricular experiences.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+      <section id="education">
+        <div class="title">Education</div>
+        <div class="education-entry">
+          <img src="./assets/images.jpeg" alt="University of Birmingham(UK)" class="education-logo" />
+          <h2>University of Birmingham(UK)</h2>
+          <p class="education-degree">Master of Science in Data Science</p>
+          <p class="education-date">September 2022 – September 2023</p>
+          <p class="education-gpa">GPA: 3.8/4.0</p>
+          <p class="education-coursework">Coursework:</p>
+          <ul>Algorithms for Data Science-Machine Learning, Data Visualization, Python
+            Programming, Database Management System- PostgreSQL, MongoDB, Neo4j, Fundamentals of GDPR,
+            Current topics in Data Science and Artificial Intelligence- Image Segmentation, Temporal Data
+            Analysis, Image Denoising.</ul>
+          
+      </div>
+      <div class="education-entry">
+        <img src="./assets/du_logo.png" alt="SRM Institute of Science and Technology Logo" class="education-logo" />
+        <div class="education-text">
+            <h2>Ramjas College(University of Delhi)</h2>
+            <p class="education-degree">Bachelors of Science Honours in Mathematics</p>
+            <p class="education-date">July 2019 – July 2022</p>
+            <p class="education-gpa">GPA: 3.70/4.0</p>
+            <p class="education-coursework">Coursework:</p>
+            <!-- List of coursework could be added here if needed -->
+            <ul>Probability, Economics, Statistics, Mathematical Finance, Calculus, Linear Algebra,
+              Mathematical Modelling, Differential Equations, C++, and R programming.</ul>
+        </div>
+    </div>
+    
+          
+      </div>
+      
+             
+    </section>
+    
+
+    <section id="experience" class="experience-section">
+      <div class="title">Experience</div>
+      <div class="experience-content">
+          <div class="experience-skills">
+              <!-- Skill details if any -->
+          </div>
+          <ul class="experience-history">
+              <!-- University of Birmingham -->
+              <li class="history-item">
+                  <img src="./assets/images.jpeg" alt="Organisation Logo" class="organisation-logo" />
+                  <div class="history-item-details">
+                      <h3>Research Associate, University of Birmingham</h3>
+                      <p>June 2023 - July 2023</p>
+                      <ul>
+
+                          <li>Conducted comprehensive attitudinal study on immunization in Pakistan, analysing across diverse religious groups.</li>
+                          <li>Proficient in R for Data Analysis to extract insights from complex datasets, including robust descriptive
+                            analyses, rigorous data balance assessments, and revealing key preferences through conjoint analysis.</li>
+                          <li>Mastered data cleaning and data pre-processing in R, ensuring data integrity.</li>
+                      </ul>
+                  </div>
+              </li>
+              <!-- Petrofac internship -->
+              <li class="history-item">
+                  <img src="./assets/petro_logo.png" alt="Organisation Logo" class="organisation-logo" height="500" width="1000" />
+                  <div class="history-item-details">
+                      <h3>Data Science and Automation Intern, Petrofac</h3>
+                      <p>February 2024 - May 2024</p>
+                      <ul>
+                          <li>Applied advanced automation techniques using UiPath and integrated machine learning models to
+                            streamline business processes, ensuring operational efficiency.</li>
+                          <li>Led AI project developing Python chatbot framework with LLMs like Llama 2 & Azure OpenAI.
+                            Researched Llama 2 access via Hugging Face and Meta, implemented Langchain python framework
+                            with Azure & Hugging Face embeddings, and integrated vector stores like Chroma DB, Pinecone, Faiss
+                            for RAG implementation and developed UI frontend using HTML, CSS, JavaScript and Flask
+                            application.</li>
+                            <li>Provided intelligent automation solutions to business such as RPA, AI, ML, NLP and others.
+                              </li>
+                              <li>Collaborated across IT infrastructure and security teams to ensure data privacy standards.</li>
+                      </ul>
+                  </div>
+              </li>
+              <!-- SmartKnower Pvt Ltd -->
+              <li class="history-item">
+                  <img src="./assets/British_Airways.png" alt="Organisation Logo" class="organisation-logo" />
+                  <div class="history-item-details">
+                      <h3>Data Science Virtual Internship, British Airways</h3>
+                      <p>June 2024 -  June 2024</p>
+                      <ul>
+                          <li>Applied webscraping in unstructured data(from customer reviews available on the website).</li>
+                          <li>Analyzed customer reviews using sentimental analysis to sort positive and negative and analysis.</li>
+                          <li>Creating a classification model to predict customer buying behaviour and find the different factors influencing booking completion with British Airways.</li>
+                      </ul>
+                  </div>
+              </li>
+          </ul>
+      </div>
+  </section>
+  
+      
+      </section>
+
+    
+      
+      
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/network 2.png" alt="Boolean Co-Abundance project" class="project-img" width="200", height="200"/>
+            </div>
+            <h2 class="experience-sub-title project-title">Thresholded Boolean Co-Abundance Analysis for Continuous valued datasets</h2>
+            <p>We dive into finding the interactions and links between species of microorganisms with the help of ESABO(Entropy Shifts of Abundance Vectors under Boolean Operations) approach. Our study focuses on finding a threshold value to binarise the continuous valued microbial and plant species datasets to get the maximal information from the dataset through the presence of prominent links achieved via thresholding. It also broadens to network theory, where we find the complexity of these interactions using network complexity measures and network formations. </p>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/devi098/Boolean-Co-abundance-analysis.git'">Github</button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/Bullying.webp" alt="Bullying project" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Bullying in schools in the UK</h2>
+            <p> Collaborated on a data science group project investigating UK school bullying on children's holistic
+              development, with a focus on mental health analysis. Led comprehensive data collection, validation, and manipulation processes to ensure the integrity
+              and quality of the dataset. Incorporated exploratory data analysis and applied a diverse array of machine learning algorithms for
+              classification utilizing the scikit-learn library to create predictive model</p>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/devi098/Bullying_UKSchools.git'">Github</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+    </section>
+  </section>
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img
+          src="./assets/email.png"
+          alt="Email icon"
+          class="icon contact-icon email-icon"
+        />
+        <p><a href="mailto: devidineshchandran@gmail.com">devidineshchandran@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img
+          src="./assets/linkedin.png"
+          alt="LinkedIn icon"
+          class="icon contact-icon"
+          onclick="window.open('https://www.linkedin.com/in/devichandran/', '_blank')"
+        />
+        <p><a href="https://www.linkedin.com/in/devichandran/">LinkedIn</a></p>
+      </div>
+    </div>
+  </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href='#education'>Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p></p>
+    </footer>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
